@@ -28,7 +28,6 @@ li {
   color: #d1d1d1 !important;
   text-shadow: none !important;
 }
-
 button[disabled='disabled'] {
   color: #999999 !important;
   text-shadow: none !important;
@@ -109,7 +108,6 @@ td,
 .line-start {
   background-color: #f8f8f8;
 }
-
 .message-sender {
   font-size: 14px;
 }
