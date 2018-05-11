@@ -28,6 +28,7 @@ li {
   color: #d1d1d1 !important;
   text-shadow: none !important;
 }
+
 button[disabled='disabled'] {
   color: #999999 !important;
   text-shadow: none !important;
@@ -108,10 +109,27 @@ td,
 .line-start {
   background-color: #f8f8f8;
 }
+
 .message-sender {
   font-size: 14px;
 }
 .unread-line-message,
 .message-sender {
   color: #f8f8f8 !important;
+}
+
+.responsive.xlarge .message-list .infinite-scroll-content{
+    padding-left: 44px;
+    padding-right: 20px;
+}
+.responsive.xlarge .conversation-header {
+    padding-left: 48px;
+    padding-right: 20px;
+}
+.responsive.xlarge .chat-input-box {
+    padding-left: 44px;
+    padding-right: 28px;
+}
+.chat-input-wrapper {
+    padding-left: 0px; 
 }
