@@ -1,0 +1,119 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+th,
+a,
+p,
+span :not([class^='cm-']) :not([class='ediff-add']),
+label,
+span.stub,
+span.message-subject,
+textarea,
+input,
+.line-number,
+button,
+code,
+div.commit-message > pre,
+div.commit-badge-oneline,
+.aui-message,
+.aui-badge,
+span[role='menuitemcheckbox'],
+span[role='menuitemradio'],
+span.pull-request-id,
+dd,
+dt,
+li {
+  color: #d1d1d1 !important;
+  text-shadow: none !important;
+}
+
+button[disabled='disabled'] {
+  color: #999999 !important;
+  text-shadow: none !important;
+}
+.conversation-header .meta {
+  padding-left: 2px;
+}
+.stride-application .stride-root,
+.message-panel,
+.main-column,
+.chat-input-box,
+.navigation
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div,
+.navigation
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div
+  div,
+.navigation
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div
+  div
+  button {
+  background-color: #23272a !important;
+  box-shadow: none !important;
+}
+.message-body div code span {
+  box-shadow: none !important;
+}
+.message-body div span[data-mention-id] span {
+  border-radius: 0;
+}
+.menu-item.active-tab > a,
+.aui-navgroup-vertical .aui-nav > li > a:focus,
+.aui-navgroup-vertical .aui-nav > li > a:hover,
+.aui-nav-vertical > li > a:focus,
+.aui-nav-vertical > li > a:hover {
+  background-color: #2c2f33 !important;
+  color: #d1d1d1;
+}
+.menu-item > a,
+.jstree-clicked,
+.aui-nav-selected > a,
+.aui-badge,
+textarea,
+input,
+div > a[class^='select'],
+div > a.aui-button,
+button,
+td,
+.sidebar,
+.navigation div,
+.right-column-inner,
+.navigation
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  > div
+  div
+  button:hover {
+  background-color: #2c2f33 !important;
+  color: #d1d1d1;
+}
+.message-row {
+  padding: 0 0 0 32px;
+  background-color: #2c2f33;
+}
+.line-start {
+  background-color: #f8f8f8;
+}
+
+.message-sender {
+  font-size: 14px;
+}
+.unread-line-message,
+.message-sender {
+  color: #f8f8f8 !important;
+}
